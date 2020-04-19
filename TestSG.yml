@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: "Test"
+
+Resources:
+ rTestSGPrince:
+   Type: "AWS::EC2::SecurityGroup"
+   Properties:
+     GroupDescription: "Test"
+     SecurityGroupIngress:
+       -
+          Description: "Open RDS ports for sandbox servers"
+          IpProtocol: "TCP"
+          FromPort: "5430"
+          ToPort: "5440"
+          CustomIp: "10.0.0.40/32"
