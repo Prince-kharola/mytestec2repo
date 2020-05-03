@@ -2,7 +2,7 @@ AWSTemplateFormatVersion: "2010-09-09"
 Description: "Test"
 
 Resources:
- rTestSGPrince:
+ rTestSGPrincecodepipeline:
    Type: "AWS::EC2::SecurityGroup"
    Properties:
      GroupDescription: "Test"
