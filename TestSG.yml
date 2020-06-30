@@ -12,4 +12,4 @@ Resources:
           IpProtocol: "TCP"
           FromPort: "5430"
           ToPort: "5440"
-          CustomIp: "10.0.0.40/32"
+          CustomIp: "10.0.0.40/28"
